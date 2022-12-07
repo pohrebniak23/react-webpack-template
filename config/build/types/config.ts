@@ -6,6 +6,7 @@ export interface BuildPaths {
 }
 
 export interface BuildOptions {
+  isDev: boolean;
   mode: 'development' | 'production';
   paths: BuildPaths;
   port: number;
